@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kittens with Heterochromia</title>
+    <link rel="stylesheet" href="styles/mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- 
+        Name: Tymothy Saeteurn
+        Date: March 2025
+        CS 125H - Lab 8
+    -->
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" title="Go to Home Page" target="_self">Home</a></li>
+                <li><a href="about.html" title="Learn more about this page" target="_self">About</a></li>
+                <li><a href="gallery.html" title="View Cute Cat Pictures" target="_self">Gallery</a></li>
+                <li><a href="contact.html" title="Contact Us" target="_self" class="active">Contact</a></li> <!-- Current page -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-form" class="main-content">
+            <h2>We'd love to hear from you!</h2>
+            <form action="#" method="POST" id="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tymothy Saeteurn</p>
+    </footer>
+
+</body>
+</html>
